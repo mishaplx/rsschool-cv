@@ -16,7 +16,7 @@
  
  specialty: computer security
  ### Courses:
-  _Програмирование на Python:_ https://stepik.org/cert/792111_
+  _Програмирование на Python:_ https://stepik.org/cert/792111
  ### LANGUAGE
 **English: A1**
 * ### SKILLS
@@ -46,7 +46,7 @@
   * writing technical documentation
 
  
- ## Code example:
+## Code example:
 
 ```
 function factorial(n)
@@ -77,5 +77,5 @@ This code is taken from the solution to task on codewars. My codewars account - 
    </a>
 </div>
 
- ## About me
+## About me
 I have experience in programming Python, PHP, jQuery, JavaScript, as well as working with MySql databases and working in graphic packages such as Photoshop and Adobe Illustrator. I have developed various user interfaces such as multi-page sites, landing pages. I also have experience in back-end development - writing php scripts and working with databases. I’m always investigating new areas of programming. Gain additional knowledge of new technologies, approaches, and apply them in practice. Never stop learning. I’m a real team player and also can work individually. I'm attentive to details. I don’t afraid of non-standard situations, overtimes. I'm very responsible about quality of my work, always meet deadlines. My main goal is to grow as a Front-end developer.
