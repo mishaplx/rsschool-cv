@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header"><h1>CV</h1></header>
+        <main>
+          <div class="flex">
+            <div class="block__left">
+              <img src="./img/foto.png" alt="photo" />
+
+              <h2>Pliakhnevich Mikhail</h2>
+              <p>Location: Minsk</p>
+              <h3>Contact:</h3>
+              <ul class="contact">
+                <li><strong>phone number: +375-33-687-63-09</strong></li>
+                <li><strong>Email: mishaplxx@gmail.com</strong></li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mikhail-plehnevich-584b661b3/"
+                    ><strong>Linkedin</strong>
+                  </a>
+                </li>
+              </ul>
+              <div class="edication">
+                <p>
+                  ВГУ им. П.М. Машерова (2016-2018) <br />
+                  faculty: mathematics and information technology <br />
+                  specialty: computer security
+                </p>
+              </div>
+              <div class="experience">
+                ОАО “Интеграл” position: QA engineer(medical equipment) <br />
+                inspection of medical devices <br />
+                finding bugs in soft <br />
+                writing technical documentation <br />
+              </div>
+            </div>
+            <div class="block__right">
+              <h3>Skills:</h3>
+              <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>sass(scss)</li>
+                <li>БЭМ</li>
+                <li>ООП</li>
+                <li>JS</li>
+                <li>PhpMyAdmin</li>
+                <li>MySQL</li>
+                <li>low knowledge :Python, Python Django</li>
+                <li>Git</li>
+                <li>Gulp</li>
+                <li>Document flow</li>
+                <li>Figma, Photoshop CC</li>
+              </ul>
+              <h3>Quality:</h3>
+              <ul class="quality">
+                <li>Attentiveness</li>
+                <li>Sociability</li>
+                <li>Perseverance</li>
+              </ul>
+              <h3>Language:</h3>
+              <p>English: A1</p>
+              <h3>Courses:</h3>
+              <p>
+                <a href="https://stepik.org/cert/792111"
+                  >Програмирование на Python
+                </a>
+              </p>
+            </div>
+          </div>
+          <h3>Code exemple:</h3>
+          <div class="code__example">
+            <pre>
+                  <code>
+                    function factorial(n)
+                    {
+                      if (n &lt; 0 || n > 12) {
+                        throw new RangeError();
+                      }
+                      if (n == 0) {
+                        return 1;
+                      } else {
+                        return n != 1 ? n * factorial(n - 1) : 1;
+                      }
+                    
+                    try {
+                      throw new RangeError();
+                    } catch (e) {
+                      if (e instanceof RangeError) {
+                        return RangeError
+                      }
+                    }
+                      }
+                  </code>
+              </pre>
+          </div>
+          <div class="about">
+            <h3>About me:</h3>
+            <hr />
+            <p class="about__me">
+              I have experience in programming Python, PHP, jQuery, JavaScript,
+              as well as working with MySql databases and working in graphic
+              packages such as Photoshop and Adobe Illustrator. I have developed
+              various user interfaces such as multi-page sites, landing pages. I
+              also have experience in back-end development - writing php scripts
+              and working with databases. I’m always investigating new areas of
+              programming. Gain additional knowledge of new technologies,
+              approaches, and apply them in practice. Never stop learning. I’m a
+              real team player and also can work individually. I’m attentive to
+              details. I don’t afraid of non-standard situations, overtimes. I’m
+              very responsible about quality of my work, always meet deadlines.
+              My main goal is to grow as a Front-end developer.
+            </p>
+          </div>
+        </main>
+        <footer class="footer">
+          <a href="https://github.com/mishaplx" class="GitHub">My GitHub</a>
+          <p class="time"><time datetime="2021-07-06">2021</time></p>
+          <div class="logo">
+            <a href="https://rs.school/js/">
+              <figure>
+                <img
+                  src="https://rs.school/images/rs_school_js.svg"
+                  alt="logo"
+                /></figure
+            ></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
