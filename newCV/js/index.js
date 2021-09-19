@@ -87,4 +87,18 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
+function scaleCv() {
+  document.body.classList.add("scale-cv");
+}
+
+function removeScale() {
+  document.body.classList.remove("scale-cv");
+}
+
+let resumeButton = document.getElementById("resume-button");
+
+resumeButton.addEventListener("click", () => {
+  scaleCv();
+});
+
 
