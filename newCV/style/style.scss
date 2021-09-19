@@ -154,6 +154,9 @@ font-size: 1rem;
       color: var(--title-color);
       font-weight: var(--font-medium);
   }
+  h6{
+      display: inline-block;
+  }
   ul{
       list-style: none;
       padding: 0;
@@ -386,7 +389,9 @@ font-weight: var(--font-medium);
     font-size: var(--smaller-font-size);
 }
 
-
+.certificate__title{
+    font-size: var(--h3-font-size);
+}
 
 .skills__container, .languages__content {
 grid-template-columns: repeat(2,1fr);
@@ -450,6 +455,7 @@ bottom: 5rem;
     flex-direction: column;
     a{
         margin: .5rem 0;
+        color: var(--text-color);
     }
 }
 @media screen and (max-width: 320px) {
@@ -503,6 +509,14 @@ column-gap: 3.5rem;
 
 }
 
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    align-items: center;
+}
 
 
 
