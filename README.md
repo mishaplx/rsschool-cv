@@ -1,1 +1,1 @@
-https://mishaplx.github.io/rsschool-cv/
+https://mishaplx.github.io/rsschool-cv/cv
